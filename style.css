@@ -1,0 +1,157 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+   margin:0;
+   
+   padding:0;
+   box-sizing:border-box;
+   font-family:'Poppins',sans-serif;
+
+}
+body{
+    min-height:100vh;
+    overflow-x: hidden;
+
+}
+
+.navigator{
+    
+   position:absolute;
+   top:0;
+   left:0;
+   width:100%;
+
+    margin: 10px;
+    padding: 50px;
+    text-align: right ;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.navigator a {
+    position: relative;
+    font-size: 1.1em;
+    font-weight:600;
+    text-decoration:none;
+    color:pink;
+    margin-right:30px;
+    padding:6px 15px;
+
+}
+.navigator a:hover{
+    color:red;
+    opacity:1;
+    background:#fff;
+    transition: .5s;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    border-radius: 30px;
+    transform:scale(1);
+}
+.navigator a1 {
+    position: relative;
+    font-size: 1.1em;
+    font-weight:600;
+    text-decoration:none;
+    color:red;
+    margin-right:30px;
+    padding:6px 15px;
+    background:#fff;
+    transition: .5s;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    border-radius: 30px;
+
+}
+.parallax{
+    position:relative;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background:url("grave.png") no-repeat;
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+    
+
+}
+#text{
+    position:absolute;
+    font-size:3em;
+    color:rgb(12, 12, 72);
+    text-shadow: 3px 4px 5x #f9f9f9;
+}
+.parallax img{
+    position:absolute;
+   top:0;
+   left:0;
+   width:100%;
+   pointer-events:none ;
+
+}
+.parallax img#gate-left{
+
+    transform: translate(-282px);
+}
+.parallax img#gate-right{
+    transform: translate(282px);
+}
+.sec{
+    position:relative;
+    background:black;
+    padding: 100px; /* Add padding of 20 pixels to all sides (top, right, bottom, left) */
+    background-color:black;
+
+}
+.sec h2{
+    font-size:2.3em;
+    color:#fff;
+    margin-bottom:10px;
+
+}
+.sec p{
+    font-size:1em;
+    color:#fff;
+    font-weight:300;
+    text-align:justify;
+}
+footer{
+    height:150px;
+    margin-right: 40px;
+
+}
+.connected{
+    display:flex;
+    justify-content:right;
+    color:#000;
+}
+.mail{
+    display:flex;
+    justify-content:right;
+}
+
+.email-link {
+   align-items: left;
+    background-color: #f0f0f0;
+    padding: 5px 10px;
+    text-decoration: none;
+    border: 1px solid #000;
+}
+.Follow{
+    font-size:0.7ren;
+    text-align: right;
+    padding-top: 25px;
+    color:rgb(5, 49, 64);
+}
+.copyright{
+    padding-top: 5 px;
+    font-size:0.7ren;
+    text-align: right;
+
+}
